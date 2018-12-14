@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bigfix Wear</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="task_running_start_task">Start een taak vanaf de tablet om te starten</string>
+</resources>

@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "be.imec.apt.bigfix"
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 271050101
+        versionName "1.0.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    flavorDimensions "environment"
+    productFlavors {
+        staging {
+            dimension "environment"
+            buildConfigField "String", "ICAL_CALENDAR_GROUP_ID", "\"<FILL IN>\""
+            buildConfigField "String", "ICAL_CALENDAR_USER_ID", "\"<FILL IN>\""
+            buildConfigField "String", "ICAL_TASKS_GROUP_ID", "\"<FILL IN>\""
+            buildConfigField "String", "ICAL_TASKS_USER_ID", "\"<FILL IN>\""
+        }
+        production {
+            dimension "environment"
+            buildConfigField "String", "ICAL_CALENDAR_GROUP_ID", "\"<FILL IN>\""
+            buildConfigField "String", "ICAL_CALENDAR_USER_ID", "\"<FILL IN>\""
+            buildConfigField "String", "ICAL_TASKS_GROUP_ID", "\"<FILL IN>\""
+            buildConfigField "String", "ICAL_TASKS_USER_ID", "\"<FILL IN>\""
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    variantFilter { variant ->
+        def names = variant.flavors*.name
+        // To check for a certain build type, use variant.buildType.name == "<buildType>"
+        if (names.contains("staging") && variant.buildType.name == "release") {
+            // Gradle ignores any variants that satisfy the conditions above.
+            setIgnore(true)
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    // Local:
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':shared')
+    wearApp project(':wearapp')
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    // ButterKnife
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    // Stetho
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    // Dagger
+    implementation 'com.google.dagger:dagger:2.16'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.16'
+    implementation 'com.google.code.gson:gson:2.8.4'
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    // Calendar
+    implementation 'org.mnode.ical4j:ical4j:2.0.5'
+    implementation 'backport-util-concurrent:backport-util-concurrent:3.1'
+    implementation 'commons-codec:commons-codec:1.11'
+    implementation 'commons-lang:commons-lang:2.6'
+    implementation 'org.jsoup:jsoup:1.11.2'
+    // Room
+    def room_version = "1.1.1"
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+    // optional - RxJava support for Room
+    implementation "android.arch.persistence.room:rxjava2:$room_version"
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    // Lottie
+    implementation 'com.airbnb.android:lottie:2.5.5'
+    // Fabric:
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
+        transitive = true
+    }
+    // Tests
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+}

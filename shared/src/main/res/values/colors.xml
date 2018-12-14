@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="imec_blue_dark">#3F98BD</color>
+    <color name="imec_blue_light">#52BDC2</color>
+
+    <color name="gradient_blue_end">@color/imec_blue_dark</color>
+    <color name="gradient_blue_start">@color/imec_blue_light</color>
+
+    <color name="green">#67C166</color>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="be.imec.apt.bigfix.wear.TaskInstructionActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:id="@+id/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_blue">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/task_running_start_task" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_playing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/imec_blue_dark">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle_shape"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="65"
+            android:progressDrawable="@drawable/circular_progress_bar" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_volume_up" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageview_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/imec_blue_dark"
+        android:scaleType="center"
+        android:src="@drawable/ic_repeat" />
+
+    <ImageView
+        android:id="@+id/imageview_next"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green"
+        android:scaleType="center"
+        android:src="@drawable/ic_next" />
+
+</android.support.wear.widget.BoxInsetLayout>

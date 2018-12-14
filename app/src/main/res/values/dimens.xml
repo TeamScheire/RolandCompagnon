@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="padding_xxlarge">64dp</dimen>
+
+
+    <dimen name="divider">1dp</dimen>
+
+    <dimen name="textsize_small">14sp</dimen>
+    <dimen name="textsize_regular">16sp</dimen>
+    <dimen name="textsize_medium">18sp</dimen>
+    <dimen name="textsize_large">24sp</dimen>
+    <dimen name="textsize_xlarge">64sp</dimen>
+
+    <dimen name="gradient_shadow_size">8dp</dimen>
+    <dimen name="current_time_circle">15dp</dimen>
+    <dimen name="current_time_line">5dp</dimen>
+    <dimen name="event_line">3dp</dimen>
+    <dimen name="info_image_size">180dp</dimen>
+    <dimen name="localizer_image_size">100dp</dimen>
+    <dimen name="task_icon_size">50dp</dimen>
+    <dimen name="task_completed_icon_size">24dp</dimen>
+
+</resources>

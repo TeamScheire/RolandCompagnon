@@ -1,0 +1,354 @@
+{
+  "honden_eten": {
+    "icon": "icons/dog_food.png",
+    "animation": "lottie/tasks/dog_food.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je de honden eten geeft",
+        "audio": "honden_eten/1.mp3"
+      },
+      {
+        "description": "Neem de beker in de keuken, die staat aan de radio",
+        "audio": "honden_eten/2.mp3"
+      },
+      {
+        "description": "Ga naar de garage",
+        "audio": "honden_eten/3.mp3"
+      },
+      {
+        "description": "De korrels staan in de garage aan de werkbank",
+        "audio": "honden_eten/4.mp3"
+      },
+      {
+        "description": "Geef anderhalve beker aan frodo in de veranda in zijn kom",
+        "audio": "honden_eten/5.mp3"
+      },
+      {
+        "description": "Geef halve beker aan Joly in de keuken in haar kom",
+        "audio": "honden_eten/6.mp3"
+      },
+      {
+        "description": "Plaats de beker terug aan de radio",
+        "audio": "honden_eten/7.mp3"
+      }
+    ]
+  },
+  "frodo_wandelen": {
+    "icon": "icons/dog_walking.png",
+    "animation": "lottie/tasks/dog_walking.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je met Frodo gaat wandelen",
+        "audio": "frodo_wandelen/1.mp3"
+      },
+      {
+        "description": "Neem je gsm uit het houten bakje in de keuken",
+        "audio": "frodo_wandelen/2.mp3"
+      },
+      {
+        "description": "Neem je portefeuille uit het houten bakje in de keuken",
+        "audio": "frodo_wandelen/3.mp3"
+      },
+      {
+        "description": "De leiband voor Frodo hangt in de garage aan de werkbank",
+        "audio": "frodo_wandelen/4.mp3"
+      },
+      {
+        "description": "Doe de leiband aan Frodo",
+        "audio": "frodo_wandelen/5.mp3"
+      },
+      {
+        "description": "Kijk of je nog genoeg zakjes hebt",
+        "audio": "frodo_wandelen/6.mp3"
+      },
+      {
+        "description": "Vul de zakjes aan, die staan op de werkbank in de garage",
+        "audio": "frodo_wandelen/7.mp3"
+      },
+      {
+        "description": "Kijk of je gsm en portefeuille mee hebt",
+        "audio": "frodo_wandelen/8.mp3"
+      },
+      {
+        "description": "Ga naar buiten langs de poort",
+        "audio": "frodo_wandelen/9.mp3"
+      },
+      {
+        "description": "De knop van de garage staat aan de linker kant",
+        "audio": "frodo_wandelen/10.mp3"
+      },
+      {
+        "description": "Sluit de poort",
+        "audio": "frodo_wandelen/11.mp3"
+      },
+      {
+        "description": "Wees voorzichtig in het verkeer",
+        "audio": "frodo_wandelen/12.mp3"
+      }
+    ]
+  },
+  "wandelen": {
+    "icon": "icons/walking.png",
+    "animation": "lottie/tasks/walking.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je je klaar maakt om op stap te gaan",
+        "audio": "wandelen/1.mp3"
+      },
+      {
+        "description": "Sluit de deuren en vensters",
+        "audio": "wandelen/2.mp3"
+      },
+      {
+        "description": "Doe de hondjes hun blafband aan",
+        "audio": "wandelen/3.mp3"
+      },
+      {
+        "description": "Doe je gsm en portefeuille mee, die liggen in het houten bakje in de keuken",
+        "audio": "wandelen/4.mp3"
+      },
+      {
+        "description": "Doe je schoenen aan, die staan op het rek in de gang",
+        "audio": "wandelen/5.mp3"
+      },
+      {
+        "description": "Doe je jas aan, die hangt aan de kapstok in de gang",
+        "audio": "wandelen/6.mp3"
+      },
+      {
+        "description": "Neem je sleutels mee die hangen aan het haakje in de gang",
+        "audio": "wandelen/7.mp3"
+      },
+      {
+        "description": "Kijk of je de gsm, portefeuille en sleutels mee hebt",
+        "audio": "wandelen/8.mp3"
+      },
+      {
+        "description": "Ga buiten langs de voordeur en sluit de voordeur",
+        "audio": "wandelen/9.mp3"
+      },
+      {
+        "description": "Wees voorzichtig in het verkeer",
+        "audio": "wandelen/10.mp3"
+      }
+    ]
+  },
+  "fietsen_lieven_annemie": {
+    "icon": "icons/bike.png",
+    "animation": "lottie/tasks/bike.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je fietst naar Lieven en Annemie",
+        "audio": "fietsen_lieven_annemie/1.mp3"
+      },
+      {
+        "description": "Sluit de deuren en vensters",
+        "audio": "fietsen_lieven_annemie/2.mp3"
+      },
+      {
+        "description": "Doe de hondjes hun blafband aan",
+        "audio": "fietsen_lieven_annemie/3.mp3"
+      },
+      {
+        "description": "Doe je gsm en portefeuille mee, die liggen in het houten bakje in de keuken",
+        "audio": "fietsen_lieven_annemie/4.mp3"
+      },
+      {
+        "description": "Doe je schoenen aan, die staan op het rek in de gang",
+        "audio": "fietsen_lieven_annemie/5.mp3"
+      },
+      {
+        "description": "Doe je jas aan, die hangt aan de kapstok in de gang",
+        "audio": "fietsen_lieven_annemie/6.mp3"
+      },
+      {
+        "description": "Neem je sleutels mee, die hangen aan het haakje in de gang",
+        "audio": "fietsen_lieven_annemie/7.mp3"
+      },
+      {
+        "description": "Kijk of je de gsm, portefeuille en sleutels mee hebt",
+        "audio": "fietsen_lieven_annemie/8.mp3"
+      },
+      {
+        "description": "Ga naar de garage en neem je fiets",
+        "audio": "fietsen_lieven_annemie/9.mp3"
+      },
+      {
+        "description": "Ga naar buiten langs de poort",
+        "audio": "fietsen_lieven_annemie/10.mp3"
+      },
+      {
+        "description": "De knop van de garage staat aan de linker kant",
+        "audio": "fietsen_lieven_annemie/11.mp3"
+      },
+      {
+        "description": "Sluit de poort",
+        "audio": "fietsen_lieven_annemie/12.mp3"
+      },
+      {
+        "description": "Fiets naar Lieven en Annemie",
+        "audio": "fietsen_lieven_annemie/13.mp3"
+      },
+      {
+        "description": "Wees voorzichtig in het verkeer",
+        "audio": "fietsen_lieven_annemie/14.mp3"
+      }
+    ]
+  },
+  "fietsen_dette_guido": {
+    "icon": "icons/bike.png",
+    "animation": "lottie/tasks/bike.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je fietst naar Dette en Guido",
+        "audio": "fietsen_dette_guido/1.mp3"
+      },
+      {
+        "description": "Sluit de deuren en vensters",
+        "audio": "fietsen_dette_guido/2.mp3"
+      },
+      {
+        "description": "Doe de hondjes hun blafband aan",
+        "audio": "fietsen_dette_guido/3.mp3"
+      },
+      {
+        "description": "Doe je gsm en portefeuille mee, die liggen in het houten bakje in de keuken",
+        "audio": "fietsen_dette_guido/4.mp3"
+      },
+      {
+        "description": "Doe je schoenen aan, die staan op het rek in de gang",
+        "audio": "fietsen_dette_guido/5.mp3"
+      },
+      {
+        "description": "Doe je jas aan, die hangt aan de kapstok in de gang",
+        "audio": "fietsen_dette_guido/6.mp3"
+      },
+      {
+        "description": "Neem je sleutels mee, die hangen aan het haakje in de gang",
+        "audio": "fietsen_dette_guido/7.mp3"
+      },
+      {
+        "description": "Kijk of je de gsm, portefeuille en sleutels mee hebt",
+        "audio": "fietsen_dette_guido/8.mp3"
+      },
+      {
+        "description": "Ga naar de garage en neem je fiets",
+        "audio": "fietsen_dette_guido/9.mp3"
+      },
+      {
+        "description": "Ga naar buiten langs de poort",
+        "audio": "fietsen_dette_guido/10.mp3"
+      },
+      {
+        "description": "De knop van de garage staat aan de linker kant",
+        "audio": "fietsen_dette_guido/11.mp3"
+      },
+      {
+        "description": "Sluit de poort",
+        "audio": "fietsen_dette_guido/12.mp3"
+      },
+      {
+        "description": "Fiets naar Dette en Guido",
+        "audio": "fietsen_dette_guido/13.mp3"
+      },
+      {
+        "description": "Wees voorzichtig in het verkeer",
+        "audio": "fietsen_dette_guido/14.mp3"
+      }
+    ]
+  },
+  "sportzak_maken": {
+    "icon": "icons/sportsbag.png",
+    "animation": "lottie/tasks/sportsbag.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je je sportzak klaar maakt",
+        "audio": "sportzak_maken/1.mp3"
+      },
+      {
+        "description": "Je sportzak hangt in de garage aan de hometrainer",
+        "audio": "sportzak_maken/2.mp3"
+      },
+      {
+        "description": "Stop er een short, t-shirt en handdoek in",
+        "audio": "sportzak_maken/3.mp3"
+      },
+      {
+        "description": "Je sportschoenen zitten er al in",
+        "audio": "sportzak_maken/4.mp3"
+      },
+      {
+        "description": "Stop er een flesje water in",
+        "audio": "sportzak_maken/5.mp3"
+      }
+    ]
+  },
+  "zwemzak_maken": {
+    "icon": "icons/swimming.png",
+    "animation": "lottie/tasks/swimming.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je je zwemzak klaarmaakt",
+        "audio": "zwemzak_maken/1.mp3"
+      },
+      {
+        "description": "Je zwembroek zit er al in",
+        "audio": "zwemzak_maken/2.mp3"
+      },
+      {
+        "description": "Neem een grote en een kleine handdoek, die liggen klaar in de keuken",
+        "audio": "zwemzak_maken/3.mp3"
+      },
+      {
+        "description": "Kijk na of je abonnement er in zit",
+        "audio": "zwemzak_maken/4.mp3"
+      },
+      {
+        "description": "Kijk na of je zwembrilletje er in zit",
+        "audio": "zwemzak_maken/5.mp3"
+      }
+    ]
+  },
+  "opgehaald_worden": {
+    "icon": "icons/car.png",
+    "animation": "lottie/tasks/car.json",
+    "instructions": [
+      {
+        "description": "Roland, dit is Christine. Ik zou graag hebben dat je je klaarmaakt om opgehaald te worden",
+        "audio": "opgehaald_worden/1.mp3"
+      },
+      {
+        "description": "Sluit de deuren en vensters",
+        "audio": "opgehaald_worden/2.mp3"
+      },
+      {
+        "description": "Doe de hondjes hun blafband aan",
+        "audio": "opgehaald_worden/3.mp3"
+      },
+      {
+        "description": "Doe je gsm en portefeuille mee, die liggen in het houten bakje in de keuken",
+        "audio": "opgehaald_worden/4.mp3"
+      },
+      {
+        "description": "Doe je schoenen aan, die staan op het rek in de gang",
+        "audio": "opgehaald_worden/5.mp3"
+      },
+      {
+        "description": "Leg je jas klaar, die hangt aan de kapstok in de gang",
+        "audio": "opgehaald_worden/6.mp3"
+      },
+      {
+        "description": "Neem je sleutels mee, die hangen aan het haakje in de gang",
+        "audio": "opgehaald_worden/7.mp3"
+      },
+      {
+        "description": "Zo dadelijk komt je begeleider je ophalen",
+        "audio": "opgehaald_worden/8.mp3"
+      },
+      {
+        "description": "Wacht nog eventjes in de zetel in de living",
+        "audio": "opgehaald_worden/9.mp3"
+      }
+    ]
+  }
+}

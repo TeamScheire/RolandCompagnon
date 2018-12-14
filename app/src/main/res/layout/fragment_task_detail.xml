@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_title"
+        style="@style/Text.Light.H1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/lottieview_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieview_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button_cta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_title"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/button_cta"
+        style="@style/Button.CTA"
+        android:clickable="false"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="@dimen/padding_xxlarge"
+        android:layout_marginStart="@dimen/padding_xxlarge"
+        android:duplicateParentState="true"
+        android:text="@string/task_press_to_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieview_icon"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+</android.support.constraint.ConstraintLayout>

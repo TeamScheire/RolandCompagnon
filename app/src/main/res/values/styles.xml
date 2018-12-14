@@ -1,0 +1,116 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textSize">@dimen/textsize_regular</item>
+    </style>
+
+    <style name="Text.Dark">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Text.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Dark.H1" parent="Text.Dark">
+        <item name="android:textSize">@dimen/textsize_large</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="Text.Light.H1">
+        <item name="android:textSize">@dimen/textsize_large</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="Text.Light.H1.Bold">
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="Text.Dark.H2">
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="Text.Dark.H3">
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="Text.MediumDark.Body" parent="Text.Dark.Body">
+        <item name="android:textColor">@color/medium_gray</item>
+    </style>
+
+    <style name="Text.MediumDark.H5" parent="Text.MediumDark.Body">
+        <item name="android:textSize">@dimen/textsize_small</item>
+
+    </style>
+
+    <style name="Text.Dark.H2.Blue">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="Text.Dark.Body">
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="Text.Dark.Body.Italic">
+        <item name="android:fontFamily">@font/raleway_italic</item>
+    </style>
+
+    <style name="Text.Light.Time">
+        <item name="android:textSize">@dimen/textsize_xlarge</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="Text.Light.Body">
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="Text.Light.Body.Bold">
+        <item name="android:textSize">@dimen/textsize_regular</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="Button" parent="@style/Widget.AppCompat.Button">
+
+    </style>
+
+    <style name="Button.CTA">
+        <item name="android:background">@color/green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="Button.Cancel">
+        <item name="android:elevation">5dp</item>
+        <item name="android:paddingStart">@dimen/padding_large</item>
+        <item name="android:paddingEnd">@dimen/padding_large</item>
+        <item name="android:paddingTop">@dimen/padding_medium</item>
+        <item name="android:paddingBottom">@dimen/padding_medium</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="android:background">@drawable/shape_cancel</item>
+        <item name="android:drawableEnd">@drawable/ic_close</item>
+        <item name="android:drawablePadding">@dimen/padding_medium</item>
+    </style>
+
+    <style name="Text.Dark.Localizer.Now" parent="Text.Dark.H2.Blue">
+    </style>
+
+    <style name="Text.Dark.Localizer.Time" parent="Text.Dark">
+        <item name="android:textSize">@dimen/textsize_large</item>
+    </style>
+
+</resources>

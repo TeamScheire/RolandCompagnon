@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BigFix</string>
+
+    <string name="calendar_header">Agenda van {{name}}</string>
+    <string name="tasks_header">Planning {{name}}</string>
+    <string name="info_user_cta">{{click}} om te weten\nwaar {{name}} is</string>
+    <string name="now">NU</string>
+
+    <string name="localizer_calendar_title">Waar is {{name}}</string>
+    <string name="localizer_calendar">Agenda</string>
+    <string name="localizer_calendar_start_end">{{starttime}} - {{endtime}}</string>
+    <string name="localizer_no_planned_activities">Geen geplande activiteiten</string>
+    <string name="localizer_no_location">Geen locatie</string>
+    <string name="localizer_back">Terug</string>
+    <string name="localizer_calendar_return">Christine zal over {{minutes}} {{unit}} terug zijn</string>
+    <plurals name="estimated_time_minutes">
+        <item quantity="one">minuut</item>
+        <item quantity="many">minuten</item>
+        <item quantity="other">minuten</item>
+    </plurals>
+
+    <string name="task_press_to_start">Druk om te starten</string>
+    <string name="task_title">{{time}} - {{title}}</string>
+
+    <string name="task_detail_manual">Volg de instructies op je horloge</string>
+    <string name="task_detail_title_task_started">{{title}} is gestart</string>
+    <string name="task_detail_stop">Taak stoppen</string>
+    <string name="task_detail_stop_description">Ben je zeker dat je de huidige taak wil stoppen?</string>
+    <string name="task_detail_continue_task">Verder gaan</string>
+    <string name="task_detail_cancel_task">Stoppen</string>
+    <string name="task_detail_start_error_title">Horloge niet verbonden</string>
+    <string name="task_detail_start_error_description">Je horloge is buiten het bereik van de tablet. Doe het horloge aan en probeer opnieuw</string>
+    <string name="task_detail_start_error_try_again">Probeer opnieuw</string>
+    <string name="task_detail_start_error_cancel">Taak annuleren</string>
+    <string name="click_here">Klik hier</string>
+
+</resources>

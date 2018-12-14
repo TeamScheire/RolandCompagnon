@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padding_large"
+    android:paddingTop="@dimen/padding_large">
+
+    <TextView
+        android:id="@+id/textview_header"
+        style="@style/Text.Dark.H1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/padding_large"
+        android:layout_marginStart="@dimen/padding_xlarge"
+        android:layout_marginTop="@dimen/padding_large"
+        android:paddingBottom="@dimen/padding_large"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:duplicateParentState="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_header" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gradient_shadow_size"
+        android:background="@drawable/gradient_top_white"
+        app:layout_constraintTop_toTopOf="@id/recyclerview" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gradient_shadow_size"
+        android:background="@drawable/gradient_bottom_white"
+        app:layout_constraintBottom_toBottomOf="@id/recyclerview" />
+
+    <View
+        android:id="@+id/view_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</android.support.constraint.ConstraintLayout>

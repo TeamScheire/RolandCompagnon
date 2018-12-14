@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/current_time_circle">
+        <layer-list>
+            <item android:gravity="left|center_vertical">
+                <shape android:shape="rectangle">
+                    <size android:height="@dimen/current_time_line" />
+                    <solid android:color="@color/blue" />
+                </shape>
+            </item>
+            <item android:gravity="right">
+                <shape android:shape="oval">
+                    <size
+                        android:width="@dimen/current_time_circle"
+                        android:height="@dimen/current_time_circle" />
+                    <solid android:color="@color/blue" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</layer-list>
