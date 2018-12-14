@@ -14,15 +14,14 @@ You can find them in your Google Calendar settings: `Secret address in ical form
 
 	https://calendar.google.com/calendar/ical/{groupId}/{userId}/basic.ics
 	
-You need two Google calendars, one for "Chistine"'s calendar, shown on the top left in the tablet app, and one for "Roland"'s task list shown on the bottom left. If you make your own version, please change the names of Christine and Roland to something else in `User.java`. If you want crash reporting to work you should also fill in an API key for Fabric / Crashlytics in the `AndroidManifest.xml`.
+You need two Google calendars, one for "*Chistine's*" calendar, shown on the top left in the tablet app, and one for "*Roland's*" task list shown on the bottom left. If you make your own version, please change the names of Christine and Roland to something else in `User.java`. If you want crash reporting to work you should also fill in an API key for [Fabric/Crashlytics](https://fabric.io/kits/android/crashlytics) in the `AndroidManifest.xml`.
 
 ### Calendar
 For the calendar, the event's title, time & location is used in the app.
 
 ### Tasks
-To define a task, they should be added to the task calendar. The type of tasks are defined in the app resources raw/tasks.json. 
-The Google Calendar event needs to have such keyword in the description (nothing else). For example **honden_eten**.
-You can choose the title freely. The event will trigger at the event's start time and will dismiss at the event's end time.
+To define a task, they should be added to the task calendar. The type of tasks are defined in the app resources file `raw/tasks.json`. 
+The Google Calendar event needs to have one of the defined tasks keywords in its description field (and nothing else). For example `honden_eten`. You can choose the event title freely. The event will trigger at the event's start time and will dismiss at the event's end time.
 
 ### Sync
 The app syncs the calendars periodically, but you can also trigger a sync by pressing the bottom right **imec** logo
